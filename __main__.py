@@ -21,7 +21,7 @@ from os import path
 
 load_dotenv(dotenv_path='settings.ini')
 
-class PyChat():
+class SusChat():
     pusher=None
     channel=None
     answ=None
@@ -300,7 +300,7 @@ class PyChat():
             sys.exit(1)
 
 def mainload():
-    PyChat().main()
+    SusChat().main()
 
 if __name__=="__main__":
-    PyChat().main()
+    SusChat().main()
