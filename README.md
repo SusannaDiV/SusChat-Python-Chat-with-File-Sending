@@ -26,3 +26,5 @@ This project is made up of 5 main files (and a setting.ini to facilitate changes
 3. filestransfer.py which manages the file transfer (with functions to upload and download on the FTP server)
 4. pychatrooms.py which manages the chatroom selection and creation (dealing with the corresponding sql search and creations in chatserver)
 5. styles.py which has functions for printing text in different colours (credit to: https://www.geeksforgeeks.org/print-colors-python-terminal/) 
+
+**In order to successfully upload and download files to and from the FTP server, write "send file" or "sdf" and "download file" or "ddf".**
